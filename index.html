@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Amazing & Delicious Food Recipes</title>
+  <meta name="title" content="Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by Nishanth D R">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Dish Detective</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Singanayakanahalli, Yelahanka, Bengaluru , IN
+        </span>
+      </address>
+
+
+      <div class="topbar-item item-2">
+        
+
+  
+      </div>
+
+      <a href="tel:+91 6361532139" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 6361532139</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:nishanth2156@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">nishanthdr2156@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/spoon-and-fork-restaurant-logo_212966-original.webp" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/spoon-and-fork-restaurant-logo_212966-original.webp" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>          
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Chef" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Feel Free To Call Us</p>
+
+          <address class="body-4">
+            Singanayakanahalli, <br>
+            Yelahanka, IN
+          </address>
+
+     
+
+          <a href="mailto:nishanthdr2156@gmail.com" class="body-4 sidebar-link">nishanthdr2156@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label"> Our Cheif Booking Request</p>
+
+          <a href="tel:+91 6361532139" class="body-1 contact-number hover-underline">
+           +91 6361532139
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#Notch" class="btn btn-secondary">
+        <span class="text text-1">Find Recipies</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Recipe</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For the love of <br>
+              delicious food
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Feel the joy of mouthwatering food. 
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where every flavor <br>
+              tells a story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Dine Together</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+          <p class="section-text">
+            Unleash your inner chef with our extraordinary recipes.Experience culinary bliss with our mouthwatering recipes
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Breakfast</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Great Starters</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Drinks</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">Every Flavor Tells a Story</h2>
+
+            <p class="section-text">
+              Discover the joy of cooking with our exceptional collection of recipes. 
+              From simple weeknight meals to gourmet creations, we have something for every taste
+              and occasion. Our easy-to-follow recipes and expert tips will help you become a better 
+              cook and impress your guests with delicious and unforgettable meals.
+            </p>
+
+            <div class="contact-label">Call Our Chief</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+91 6361532139</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Special Dish</p>
+
+            <h2 class="headline-1 section-title">Grilled Spicy Chicken</h2>
+
+            <p class="section-text">
+              Our signature non-veg dish is an absolute delight for meat lovers. Picture a succulent 
+              and juicy piece of meat, cooked to perfection with a blend of exotic spices and herbs 
+              that are sure to tantalize your taste buds. As you take your first bite, the flavors 
+              burst into your mouth, leaving you speechless.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">₹40.00</del>
+
+              <span class="span body-1">₹20.00</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Greek Salad</a>
+                    </h3>
+
+                    <span class="badge label-1">Seasonal</span>
+
+                    <span class="span title-2">₹25.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasagne</a>
+                    </h3>
+
+                    <span class="span title-2">₹40.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Butternut Pumpkin</a>
+                    </h3>
+
+                    <span class="span title-2">₹10.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tokusen Wagyu</a>
+                    </h3>
+
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">₹39.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Olivas Rellenas</a>
+                    </h3>
+
+                    <span class="span title-2">₹25.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Opu Fish</a>
+                    </h3>
+
+                    <span class="span title-2">₹49.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+          <h2 class="headline-1 section-title text-center">Past Feedback</h2><br>
+
+          <div class="quote">”</div>
+          <p class="headline-2 testi-text">
+            I wanted to thank you for amazing food recipe. The recipe was
+            extraordinary. It helped me a lot.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Sam Jhonson</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+
+      <section class="section features text-center" aria-label="features" id="Chef">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Us</p>
+
+          <h2 class="headline-1 section-title">Our Strength</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Veg Food</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Non-Veg Food</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Skilled Chef's Recipes</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Great Recipes</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/09/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/09/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Healthy Food</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/09/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Recipie</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!--
+    - #Recipe List
+  -->
+      
+        <section class="section service bg-black-10 text-center" aria-label="service" id="Notch">
+    <div class="container">
+      <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+      <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+      <p class="section-text">
+        Unleash your inner chef with our extraordinary recipes.Experience culinary bliss with our mouthwatering recipes
+      </p>
+
+      <form>
+        <input type="text" id="search" placeholder="Enter ingredients">
+        <button type="submit" class="btn btn-secondary">
+          <span class="text text-1">Search</span>
+
+          <span class="text text-2" aria-hidden="true">Search</span>
+        </button>
+       
+    </form>
+    <div id="results"></div>
+    </div>
+
+  </section>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/spoon-and-fork-restaurant-logo_212966-original.webp" width="160" height="50" loading="lazy" alt="Recipe..">
+          </a>
+
+          <address class="body-4">
+            Singanayakanahalli, Yelahanka, Bengaluru, IN
+          </address>
+
+          <a href="mailto:nishanthdr2156@gmail.com" class="body-4 contact-link">nishanthdr2156@gmail.com</a>
+
+
+          <p class="body-4">
+            Contact time: 09:00 am - 10:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Please Come Back For More Recipes...</p>
+
+
+
+          
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#menu" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#Chef" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/nishanth-d-r-013132246/" class="label-2 footer-link hover-underline">Linked In</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/nishanth__x/" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/rbl85552" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UC0QPMxoYDtNgTkE42De4l9g" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="https://goo.gl/maps/T6qFBaJZvsfqkWHF6" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023  All Rights Reserved | Crafted by <a href="https://github.com/NishanthDR/Recipefinder.git"
+            target="_blank" class="link">Nishanth D R</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
